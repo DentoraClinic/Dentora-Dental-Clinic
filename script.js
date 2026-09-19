@@ -9,7 +9,15 @@
 //   pdf: "documents/ALW-EMP-2026-001.pdf"
 // }
 
-const documents = {};
+const documents = {
+  "DNT-EMP-2026-001": {
+    type: "Employment Certificate",
+    name: "Demo Employee",
+    position: "General Dentist",
+    issueDate: "19 September 2026",
+    status: "Valid"
+  }
+};
 
 function verifyDocument(){
   const id = document.getElementById("docNo").value.trim().toUpperCase();
